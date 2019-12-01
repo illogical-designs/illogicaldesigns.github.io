@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hats Logic Games</title>
+        <link rel="stylesheet" href="main.css">
+<style>
+    .newsframe{
+        width:100%;
+        border:none;
+        height: 800px;
+        overflow: auto";
+    }
+
+    @media screen and (max-width: 850px) {
+         .newsframe{
+            height: 1200px;
+        }
+    }
+</style>
+</head>
+<body>
+<nav>
+    <ul class="topnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#home">News</a></li>
+      <li><a href="Games.html">Games</a></li>
+      <li><a href="About.html">About</a></li>
+    </ul>
+</nav>
+<header style="background-image:url('MainHeader1.png')">
+    <h1>Occasionally making fun Games</h1>
+</header>
+<section>
+	<div class="flex-container">
+		<div class="game">
+			<h2 style="padding:5px;">Road to Power</h2>
+			<img src="RoadToPowerThumnail.png" alt="Italian Trulli" width="100%">
+    			<p style="padding:5px;">A short Satirical take on the life of a dictator.  Co-created with ______ for Ludum Dare 40.</p>
+			<a style="font-size:30px" class="linkbtn" href="#home">About</a>
+  		</div>
+		<div class="game">
+			<h2 style="padding:5px;">Choices</h2>
+			<img src="Choices.png" alt="Italian Trulli" width="100%">
+    			<p style="padding:5px;">A short horror game that was poorly made for the bite-sized horror game jam 2018.</p>
+			<a style="font-size:30px" class="linkbtn" href="#home">About</a>
+  		</div>
+		<div class="game">
+			<h2 style="padding:5px;">Shopping Hell</h2>
+			<img src="SHThumbnail.png" alt="Italian Trulli" width="100%">
+    			<p style="padding:5px;">My submission for LD43. Frantic fistfights break out over killer deals. Get in on these deals.</p>
+			<a style="font-size:30px" class="linkbtn" href="./ShoppingHell_Web/shoppinghellindex.html">Play</a>
+            <!-- https://ldjam.com/events/ludum-dare/43/black-friday -->
+  		</div>
+	</div>
+
+</section>
+<section style="text-align:center;background-color: white">
+    <script type="text/javascript">
+  function resizeIframe(obj){
+     obj.style.height = 0;
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+<iframe class="newsframe" src="newsembed.html" scrolling="no"></iframe>
+</section>
+<footer>
+Hats Logic Games. 2018.
+</footer>
+</body>
+</html>
